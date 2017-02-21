@@ -1,0 +1,10 @@
+framework module AdAdaptiveFramework {
+  umbrella header "AdAdaptiveFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AdAdaptiveFramework.Swift {
+    header "AdAdaptiveFramework-Swift.h"
+}
