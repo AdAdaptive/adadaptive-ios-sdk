@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		260A25620DCB1570629166B6 /* Pods_BannerAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5DEB4E92AE71F10710E578 /* Pods_BannerAdDemo.framework */; };
-		E9136DF81E5CC13C0004C3A4 /* AdAdaptiveFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9136DF71E5CC13C0004C3A4 /* AdAdaptiveFramework.framework */; };
-		E9136DF91E5CC13C0004C3A4 /* AdAdaptiveFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9136DF71E5CC13C0004C3A4 /* AdAdaptiveFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9136E121E5E167C0004C3A4 /* AdAdaptiveFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9136E111E5E167C0004C3A4 /* AdAdaptiveFramework.framework */; };
+		E9136E131E5E167C0004C3A4 /* AdAdaptiveFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9136E111E5E167C0004C3A4 /* AdAdaptiveFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E9E2AFF61E5BAFBE00525794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E2AFF51E5BAFBE00525794 /* AppDelegate.swift */; };
 		E9E2AFF81E5BAFBE00525794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E2AFF71E5BAFBE00525794 /* ViewController.swift */; };
 		E9E2AFFB1E5BAFBE00525794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E2AFF91E5BAFBE00525794 /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E9136DF91E5CC13C0004C3A4 /* AdAdaptiveFramework.framework in Embed Frameworks */,
+				E9136E131E5E167C0004C3A4 /* AdAdaptiveFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +35,7 @@
 		15B5ADE9BBE2A562D56A8E51 /* Pods-BannerAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3153F9530559504AFD408291 /* Pods-BannerAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3F5DEB4E92AE71F10710E578 /* Pods_BannerAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9136DF71E5CC13C0004C3A4 /* AdAdaptiveFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdAdaptiveFramework.framework; sourceTree = "<group>"; };
+		E9136E111E5E167C0004C3A4 /* AdAdaptiveFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdAdaptiveFramework.framework; sourceTree = "<group>"; };
 		E9E2AFF21E5BAFBE00525794 /* BannerAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E2AFF51E5BAFBE00525794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E2AFF71E5BAFBE00525794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9136DF81E5CC13C0004C3A4 /* AdAdaptiveFramework.framework in Frameworks */,
+				E9136E121E5E167C0004C3A4 /* AdAdaptiveFramework.framework in Frameworks */,
 				260A25620DCB1570629166B6 /* Pods_BannerAdDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,7 +78,7 @@
 		E9E2AFE91E5BAFBE00525794 = {
 			isa = PBXGroup;
 			children = (
-				E9136DF71E5CC13C0004C3A4 /* AdAdaptiveFramework.framework */,
+				E9136E111E5E167C0004C3A4 /* AdAdaptiveFramework.framework */,
 				E9E2AFF41E5BAFBE00525794 /* BannerAdDemo */,
 				E9E2AFF31E5BAFBE00525794 /* Products */,
 				21979E0E51C705D300DCC46E /* Pods */,
